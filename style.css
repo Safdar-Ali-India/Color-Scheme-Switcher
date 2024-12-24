@@ -1,10 +1,13 @@
 nav {
+    display: flex;
     align-items: center;
-    background-color: black;
+    justify-content: space-between;
+    background-color: #1a1a1a;
     color: white;
-    padding: 30px;
-    border: 2px solid black;
-    border-radius: 120px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
 }
 
 .canvas {
@@ -16,25 +19,42 @@ nav {
     margin-bottom: 120px;
     margin-left: 50px;
     text-decoration: none;
-    border: 2px solid;
-    padding: 20px;
-    background-color: #5f5a5a;
+    border: 2px solid #1a1a1a;
+    padding: 15px 25px;
+    background-color: #333;
     color: white;
-    border-radius: 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.newa:hover {
+    background-color: #575757;
+    transform: scale(1.05);
 }
 
 .colorHead {
     margin: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
 }
 
 .button {
-    padding-top: 28px;
-    padding-bottom: 28px;
-    padding-right: 144px;
-    padding-bottom: 14px;
+    display: inline-block;
+    padding: 20px 40px;
     margin: 10px;
-
     border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #grey {
