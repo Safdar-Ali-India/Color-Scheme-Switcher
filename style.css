@@ -1,0 +1,54 @@
+nav {
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 120px;
+}
+
+.canvas {
+    margin-left: 50px;
+}
+
+.newa {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 20px;
+    background-color: #5f5a5a;
+    color: white;
+    border-radius: 10px;
+}
+
+.colorHead {
+    margin: 50px;
+}
+
+.button {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-right: 144px;
+    padding-bottom: 14px;
+    margin: 10px;
+
+    border: 2px solid black;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
